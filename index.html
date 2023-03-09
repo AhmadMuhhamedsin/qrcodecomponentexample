@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      background-color: beige;
+      padding:1rem;
+      
+    }
+    .card-container{
+      position:absolute;
+      padding: 1rem;
+      border-color: black;
+      display:flex;
+      border-radius: 15px;
+      border: solid #000;
+      border-width: 1px 1px;
+      flex-direction: column;
+      background-color: white;
+      width:350px;
+    }
+    .qr-code-container{
+      display: flex;
+      align-items: center;
+      align-content: center;
+      flex-direction: column;
+    }
+    .card-text{
+      display:flex;
+      flex-direction: column;
+      padding:1rem;
+      text-align: left;
+    }
+    h1{
+      font-family: 'Roboto', sans-serif;
+    }
+    p{
+      font-family: 'Roboto', sans-serif;
+
+    }
+    img{
+      border-radius: 15px
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="qr-code-container">
+      <img src="./images/image-qr-code.png" alt="qr-code" height=320 >
+    </div>
+    <div class="card-text">
+      <h1>
+        Improve your front-end skills by building projects
+      </h1>
+      <p>
+        Scan the qr code to visit the site
+      </p>
+    </div>
+  </div>
+</body>
+</html>
