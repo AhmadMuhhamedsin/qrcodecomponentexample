@@ -1,0 +1,2 @@
+# qrcodecomponentexample
+qrcodecomponentexample
